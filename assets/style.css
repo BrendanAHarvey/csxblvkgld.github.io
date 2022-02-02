@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Supermercado+One&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+}
+
+/* Navbar Section */
+
+.nav-link {
+    color: aqua;
+}
+
+nav {
+    margin: 0%;
+}
+
+/* HTML, body, Main Footer section */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+ main {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #0a192f;
+}
+
+ footer {
+    color: white;
+    height: 500px;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #0a192f;
+}
+
+.foot-statement {
+    background-image: url(./black-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100%;
+    padding-top: 300px;
+}
+
+/* Hero section */
+
+.hero {
+    background-image: url(./navy-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    height: 100%;
+    color: white;
+    margin: 0%;
+
+}
+
+.hero-img{
+    width: 100%;
+    height: 700px;
+    grid-area: 1 / 1 / 1 / 1;
+    
+}
+
+.hero-statement {
+    grid-area: 1 / 1 / 1 / 1;
+    z-index: 5;
+    padding-top: 300px;
+}
+
+.intro-statement {
+    margin: 0%;
+}
+
+/* About Me section */
+
+.about-section {
+    background-image: url(./black-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.about-me {
+    color: white;
+    width: 30%;
+    
+}
+
+.me-img {
+    width: 400px;
+    height: 500px;
+} 
+
+/* Work section */
+.work-section {
+    background-image: url(./navy-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.work-section img{
+    width: 300px;
+    height: 200px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        
+    }
+
+    .about-section {
+
+    }
+
+    .work-section {
+
+    }
+
+    footer {
+        
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .hero {
+
+    }
+
+    .about-section {
+
+    }
+
+    .work-section {
+
+    }
+
+    footer {
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px), (orientation: landscape) {
+    .hero {
+
+    }
+
+    .about-section {
+
+    }
+
+    .work-section {
+
+    }
+
+    footer {
+
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    .hero {
+
+    }
+
+    .about-section {
+
+    }
+
+    .work-section {
+
+    }
+
+    footer {
+
+    }
+
+    @media only screen and (min-width: 1600px) {
+        .hero {
+    
+        }
+    
+        .about-section {
+    
+        }
+    
+        .work-section {
+    
+        }
+    
+        footer {
+    
+        }
