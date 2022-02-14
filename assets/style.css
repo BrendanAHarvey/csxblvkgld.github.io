@@ -98,7 +98,6 @@ html,body
 .about-me {
     color: white;
     width: 30%;
-    
 }
 
 .me-img {
@@ -115,6 +114,7 @@ html,body
     color: white; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-x: auto;
 }
 
 .work-section img{
@@ -126,88 +126,110 @@ html,body
 
 @media only screen and (max-width: 480px) {
     .hero {
-        
+        height: 100%;
+        width: 80%;      
     }
 
     .about-section {
-
+        height: 100%;
+        width: 80%;
     }
 
     .work-section {
-
+        height: 100%;
+        width: 80%; 
     }
 
     footer {
-        
+        height: 100%;
+        width: 80%;  
     }
-}
+};
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-    .hero {
-
+     .hero {
+        height: 100%;
+        width: 80%;      
     }
 
     .about-section {
-
+        height: 100%;
+        width: 80%;
     }
 
     .work-section {
-
+        height: 100%;
+        width: 80%; 
     }
 
     footer {
-
+        height: 100%;
+        width: 80%;  
     }
-}
+};
 
 @media only screen and (min-width: 768px) and (max-width: 1024px), (orientation: landscape) {
-    .hero {
-
+   .hero {
+        height: 100%;
+        width: 80%;      
     }
 
     .about-section {
-
+        height: 100%;
+        width: 80%;
     }
 
     .work-section {
-
+        height: 100%;
+        width: 80%; 
     }
 
     footer {
-
+        height: 100%;
+        width: 80%;  
     }
-}
+};
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
-    .hero {
-
+   .hero {
+        height: 100%;
+        width: 80%;      
     }
 
     .about-section {
-
+        height: 100%;
+        width: 80%;
     }
 
     .work-section {
-
+        height: 100%;
+        width: 80%; 
     }
 
     footer {
+        height: 100%;
+        width: 80%;  
+    }
+};
 
+@media only screen and (min-width: 1600px) {
+    .hero {
+        height: 100%;
+        width: 80%;      
     }
 
-    @media only screen and (min-width: 1600px) {
-        .hero {
-    
-        }
-    
-        .about-section {
-    
-        }
-    
-        .work-section {
-    
-        }
-    
-        footer {
-    
-        }
+    .about-section {
+        height: 100%;
+        width: 80%;
+    }
+
+    .work-section {
+        height: 100%;
+        width: 80%; 
+    }
+
+    footer {
+        height: 100%;
+        width: 80%;  
+    }
+};
